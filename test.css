@@ -1,0 +1,30 @@
+.table {
+    display: table;
+}
+.row {
+    display: table-row ;
+}
+.cell {
+    display: table-cell;
+    padding: 12px;
+    width: 33%;
+}
+img  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    height: 150px;
+    border-radius: 2px;
+    box-shadow: black 10px 10px 30px;
+}
+
+.row:nth-child(3) .cell {
+    text-align: center;
+
+}
+.back {
+   border-style: solid;
+   background-color: yellow;
+   margin: 10px 30px 10px 20px;
+}

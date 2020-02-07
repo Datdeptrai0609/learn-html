@@ -1,0 +1,52 @@
+.box {
+    border: silver;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;   
+    background-color: silver;
+}
+.center{
+    text-align: center;
+}
+.white-box{
+    border: solid 0px ;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px 220px 20px 220px ;
+    background-color: white;
+    
+}
+.caption{
+    border: solid 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: large;
+}
+ul,.text{
+    padding: 10px 350px 10px 350px;
+    font-size: large;
+}
+li{
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+@keyframes animation{
+    0% {top:0px}
+    100%{top: 10px};
+}
+a:hover{
+    
+    animation-name: animation;
+    animation-duration: 0.5s;
+    position: relative;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
